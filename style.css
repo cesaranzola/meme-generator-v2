@@ -1,7 +1,9 @@
 :root {
 	--primary-color: #967e76;
 	--secondary-color: #453b37;
+	--light-color: #a3927c;
 	--whity: #f5f5f5;
+	--grey: #708090;
 }
 
 body {
@@ -30,7 +32,7 @@ body {
 #get-image:hover,
 #get-image:focus,
 #get-image:active {
-	background-color: rgb(163, 146, 124);
+	background-color: var(--light-color);
 }
 
 #gif-checkbox {
@@ -77,4 +79,29 @@ body {
 	position: absolute;
 	top: 12rem;
 	border-radius: 5px;
+	/* display: none; */
+}
+
+#close-button {
+	background-color: var(--light-color);
+	border: none;
+}
+
+#close-button:hover,
+#close-button:focus,
+#close-button:active {
+	background-color: var(--whity);
+	color: var(--grey);
+}
+
+/* Media queries */
+@media (max-width: 375px) {
+	.container {
+		margin-bottom: 4rem;
+	}
+
+	.popBox {
+		background-color: var(--primary-color);
+		width: 320px;
+	}
 }
