@@ -1,6 +1,6 @@
 :root {
 	--primary-color: #967e76;
-	--secondary-color: #2d2623;
+	--secondary-color: #453b37;
 	--whity: #f5f5f5;
 }
 
@@ -9,7 +9,7 @@ body {
 	font-size: 1.2rem;
 }
 
-.container-fluid {
+.bannertop {
 	height: 150px;
 	background-color: var(--primary-color);
 }
@@ -37,3 +37,35 @@ body {
 	accent-color: var(--primary-color);
 }
 
+.highlight {
+	background-color: var(--primary-color);
+	accent-color: var(--secondary-color);
+}
+
+.highlight:nth-last-of-type(1) {
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+.highlight:first-of-type {
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.radioBox {
+	border: 1px solid var(--primary-color);
+	border-bottom: 0.5px;
+	padding: 0.5rem;
+	width: 250px;
+}
+
+.radioBox:first-of-type {
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.radioBox:nth-of-type(9) {
+	border-bottom: 1px solid var(--primary-color);
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
