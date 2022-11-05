@@ -79,7 +79,7 @@ body {
 	position: absolute;
 	top: 12rem;
 	border-radius: 5px;
-	/* display: none; */
+	display: none;
 }
 
 #close-button {
@@ -96,12 +96,12 @@ body {
 
 /* Media queries */
 @media (max-width: 375px) {
-	.container {
-		margin-bottom: 4rem;
-	}
-
 	.popBox {
 		background-color: var(--primary-color);
 		width: 320px;
+		margin-bottom: 5rem;
+	}
+	.generalBox {
+		margin-bottom: 5rem;
 	}
 }
