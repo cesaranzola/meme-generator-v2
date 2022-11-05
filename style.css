@@ -69,3 +69,12 @@ body {
 	border-bottom-left-radius: 5px;
 	border-bottom-right-radius: 5px;
 }
+
+.popBox {
+	background-color: var(--primary-color);
+	width: 350px;
+	height: 600px;
+	position: absolute;
+	top: 12rem;
+	border-radius: 5px;
+}

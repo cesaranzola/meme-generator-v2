@@ -1,6 +1,7 @@
 import { catsData } from './data.js';
 
 const emotionsBtns = document.getElementById('emotions-buttons');
+const popBox = document.getElementById('popBox');
 
 emotionsBtns.addEventListener('change', highlight);
 
@@ -13,6 +14,21 @@ function highlight(e) {
 		.getElementById(e.target.id)
 		.parentElement.classList.add('highlight');
 }
+
+function renderCat() {
+	const object = getSingleObject();
+	popBox.innerHTML += `<img
+			src="images/${object.image}"
+			alt="${object.alt}"
+			class="img-fluid"
+			style="width: 400px; height: 400px"
+		/>`;
+	popBox.style.display = 'flex';
+}
+
+function getSingleObject() {}
+
+function getMatchingArray() {}
 
 function getEmotions(cats) {
 	let emotionsArray = [];
