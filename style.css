@@ -27,7 +27,7 @@ body {
 #get-image {
 	background-color: var(--primary-color);
 	border: none;
-	margin-bottom: 5rem;
+	margin-bottom: 3rem;
 }
 
 #get-image:hover,
