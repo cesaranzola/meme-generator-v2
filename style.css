@@ -95,7 +95,7 @@ body {
 }
 
 /* Media queries */
-@media (max-width: 375px) {
+@media (max-width: 390px) {
 	.popBox {
 		background-color: var(--primary-color);
 		width: 320px;
