@@ -1,0 +1,38 @@
+:root {
+	--primary-color: #967e76;
+	--secondary-color: #2d2623;
+	--whity: #f5f5f5;
+}
+
+body {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 1.2rem;
+}
+
+.container-fluid {
+	height: 150px;
+	background-color: var(--primary-color);
+}
+
+#image-banner {
+	height: 150px;
+}
+
+#titles {
+	color: var(--whity);
+}
+
+#get-image {
+	background-color: var(--primary-color);
+	border: none;
+}
+
+#get-image:hover,
+#get-image:focus,
+#get-image:active {
+	background-color: rgb(163, 146, 124);
+}
+
+#gif-checkbox {
+	accent-color: var(--primary-color);
+}
